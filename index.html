@@ -9,8 +9,8 @@
 
     <body>
         <a-scene
-            vr-mode-ui="enabled: true;"
-            loading-screen="enabled: true;"
+            vr-mode-ui="enabled: false;"
+            loading-screen="enabled: false;"
             arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
             id="scene"
             embedded
@@ -20,14 +20,12 @@
                 type="pattern"
                 preset="custom"
                 url="assets/marker.patt"
-                
                 id="markerA"
             >
                 <a-image
                     src="assets/asset.jpeg"
-                    scale="1.5 1.5 1.5"
-                   
-                    rotation="0 0 0"
+                    scale="2 2 2"
+                    rotation="-90 0 0"
                 ></a-image>
             </a-marker>
 
